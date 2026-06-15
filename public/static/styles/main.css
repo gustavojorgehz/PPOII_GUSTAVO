@@ -89,6 +89,11 @@ button {
     background-color: #16a34a;
 }
 
+.btn-return {
+    background-color: rgb(103, 10, 10);
+    border: 1px solid #ffffff;
+}
+
 /* =========================
    SEÇÕES
 ========================= */

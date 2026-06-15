@@ -63,20 +63,19 @@ button {
     background: transparent;
     border: 1px solid white;
     color: white;
+
+    & > a {
+        color: white;
+        text-decoration: none;
+    }
 }
 
 .btn-login:hover {
     background-color: white;
-    color: #0f172a;
-}
-
-.btn-register {
-    background-color: #22c55e;
-    color: white;
-}
-
-.btn-register:hover {
-    background-color: #16a34a;
+    & > a {
+        color: #0f172a;
+        text-decoration: none;
+    }
 }
 
 /* =========================

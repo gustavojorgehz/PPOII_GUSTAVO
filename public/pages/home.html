@@ -4,8 +4,8 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Repa home</title>
-    <link rel='stylesheet' href='../styles/home.css'>
-    <link rel='stylesheet' href='../styles/main.css'>
+    <link rel='stylesheet' href='/public/static/styles/main.css'>
+    <link rel='stylesheet' href='/public/static/styles/home.css'>
 
 </head>
 <body>
@@ -16,22 +16,7 @@
     </div>
 
     <nav class="auth-buttons">
-        <button class="btn-login">Login</button>
-        <button class="btn-register">Cadastro</button>
-
-        <dialog id="loginDialog">
-            <form method="dialog">
-                <h2>Login</h2>
-                <label for="username">Usuário:</label>
-                <input type="text" id="username" name="username" required>
-
-                <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" required>
-
-                <button type="submit">Entrar</button>
-                <button type="button" onclick="document.getElementById('loginDialog').close()">Cancelar</button>
-            </form>
-        </dialog>
+        <button class="btn-login"><a href="/public/pages/login.html">Login</a></button>
     </nav>
 </header>
 
