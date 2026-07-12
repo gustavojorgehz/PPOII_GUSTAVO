@@ -23,8 +23,6 @@ body {
 ========================= */
 
 header {
-    background-color: #0f172a;
-    color: white;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -126,8 +124,7 @@ li {
 ========================= */
 
 footer {
-    background-color: #0f172a;
-    color: white;
+
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;

@@ -22,19 +22,19 @@
     <!-- Main Content -->
     <main>
         <!-- Área de Login/Cadastro -->
-        <div id="authContainer" style="width: 100%; max-width: 400px;">
+        <div id="authContainer" class="auth-container">
             <!-- Formulário de Login -->
-            <div id="loginForm" class="container" style="display: none;">
-                <h2>🔐 Entrar</h2>
+            <div id="loginForm" class="container">
+                <h2>Entrar</h2>
                 <div id="loginMessage" class="message"></div>
                 <form id="loginFormElement">
                     <div class="form-group">
                         <label for="loginEmail">E-mail</label>
-                        <input type="email" id="loginEmail" required placeholder="seu@email.com">
+                        <input type="email" id="loginEmail" required placeholder="digite seu email">
                     </div>
                     <div class="form-group">
                         <label for="loginPassword">Senha</label>
-                        <input type="password" id="loginPassword" required placeholder="Sua senha">
+                        <input type="password" id="loginPassword" required placeholder="digite sua senha">
                     </div>
                     <button type="submit" class="submit-btn">Entrar</button>
                 </form>
@@ -45,16 +45,16 @@
 
             <!-- Formulário de Cadastro -->
             <div id="registerForm" class="container" style="display: none;">
-                <h2>📝 Criar Conta</h2>
+                <h2>Criar Conta</h2>
                 <div id="registerMessage" class="message"></div>
                 <form id="registerFormElement">
                     <div class="form-group">
                         <label for="registerName">Nome completo</label>
-                        <input type="text" id="registerName" required placeholder="Seu nome">
+                        <input type="text" id="registerName" required placeholder="digite seu nome">
                     </div>
                     <div class="form-group">
                         <label for="registerEmail">E-mail</label>
-                        <input type="email" id="registerEmail" required placeholder="seu@email.com">
+                        <input type="email" id="registerEmail" required placeholder="digite seu email">
                     </div>
                     <div class="form-group">
                         <label for="registerPassword">Senha</label>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="form-group">
                         <label for="registerConfirmPassword">Confirmar Senha</label>
-                        <input type="password" id="registerConfirmPassword" required placeholder="Repita a senha">
+                        <input type="password" id="registerConfirmPassword" required placeholder="digite sua senha novamente">
                     </div>
                     <button type="submit" class="submit-btn">Criar Conta</button>
                 </form>

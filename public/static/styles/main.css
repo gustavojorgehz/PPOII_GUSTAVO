@@ -20,9 +20,15 @@ html, body {
    LAYOUT GERAL
 ========================= */
 
+:root {
+    --gradient-green:linear-gradient(135deg, rgb(21, 83, 37) 0%, rgb(11, 69, 31) 100%);
+    --gradient-container: linear-gradient(135deg, rgb(26, 86, 59) 0%, rgb(47, 130, 78) 100%);--primary-color: #124b1a;
+    --white: #ffffff;
+}
+
 header, footer {
-    background-color: #0f172a;
-    color: #ffffff;
+    background: var(--gradient-green);
+    color: var(--white);
     padding: 1rem 2rem;
 }
 
@@ -67,31 +73,24 @@ button {
     cursor: pointer;
     font-size: 0.9rem;
     transition: 0.2s ease-in-out;
-}
-
-.btn-login {
-    background-color: transparent;
+    background-color: var(--primary-color);
     border: 1px solid #ffffff;
-    color: #ffffff;
+    color: var(--white)
 }
 
 .btn-login:hover {
-    background-color: #ffffff;
-    color: #0f172a;
-}
-
-.btn-register {
-    background-color: #22c55e;
-    color: #ffffff;
+    background-color: var(--white);
+    color: var(--primary-color);
 }
 
 .btn-register:hover {
-    background-color: #16a34a;
+    background-color: var(--white);
+    color: var(--primary-color);
 }
 
-.btn-return {
-    background-color: rgb(103, 10, 10);
-    border: 1px solid #ffffff;
+.btn-return:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
 }
 
 /* =========================
