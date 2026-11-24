@@ -1,0 +1,115 @@
+/* =========================
+   TEMA GLOBAL
+========================= */
+
+:root {
+    --primary: #00d084;
+    --secondary: #7bdcb5;
+    --dark: #124b1a;
+    --white: #ffffff;
+    --background: #f4f6f9;
+
+    --gradient-green: linear-gradient(135deg, #155325 0%, #0b451f 100%);
+    --gradient-container: linear-gradient(135deg, #1a563b 0%, #2f824e 100%);
+}
+
+/* =========================
+   GERAL
+========================= */
+
+body {
+    background: var(--background);
+    color: #1e1e1e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    background: var(--gradient-green);
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--white) !important;
+}
+
+.nav-link:hover {
+    color: var(--secondary) !important;
+}
+
+/* =========================
+   BOTÕES
+========================= */
+
+.btn-success {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-success:hover {
+    background: var(--dark);
+    border-color: var(--dark);
+}
+
+.btn-outline-success {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-success:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+}
+
+.card-title {
+    color: var(--dark);
+    font-weight: bold;
+}
+
+/* =========================
+   LISTAS
+========================= */
+
+.list-group-item {
+    border: none;
+    padding: .9rem 0;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background: var(--gradient-green);
+    color: var(--white);
+}
+
+footer p {
+    margin-bottom: .3rem;
+}
+
+/* =========================
+   ANIMAÇÕES
+========================= */
+
+.card {
+    transition: .3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .15);
+}

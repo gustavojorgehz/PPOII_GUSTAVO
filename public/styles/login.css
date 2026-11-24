@@ -1,0 +1,11 @@
+body.auth-page { background: linear-gradient(145deg, #e7f3f0, var(--color-background)); }
+.auth-page .navbar { background: transparent !important; box-shadow: none; }
+.auth-page .auth-card {
+    max-width: 32rem;
+    margin-inline: auto;
+    border-top: .25rem solid var(--color-primary);
+}
+.auth-page .form-control { padding: .75rem .9rem; }
+.auth-page .form-check-input:checked { background-color: var(--color-primary); border-color: var(--color-primary); }
+.auth-page .message { display: block; }
+.auth-page #userArea { border-top: .25rem solid var(--color-accent); }
